@@ -13,6 +13,7 @@ This challenge focuses on using the `this` keyword as well as getting comfortabl
 * [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 * [ ] Push commits: git push origin `<firstName-lastName>`.
 
+
 **Follow these steps for completing your project.**
 
 * [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
