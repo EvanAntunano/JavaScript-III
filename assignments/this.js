@@ -14,12 +14,16 @@
 // Principle 1
 console.log("principle 1");
 // code example for Window Binding
-"use strict"
-function bestBand(bandName) {
-    console.log(this);
-    return bandName;
+var myFavoriteBand = function () {
+    console.log(`My favorite band is ${this.name}`);
+};
+
+var band = {
+    name: "Archspire"
 }
-bestBand("Archspire");
+
+var myFavoriteBand = myFavoriteBand.bind(band);
+myFavoriteBand();
 
 
 
